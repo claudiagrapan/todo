@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  font-family: sans-serif;
+  font-style: Regular;
+  font-size: 16px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: url("bckgr.png") repeat;
+  background-size: cover;
+}
+
+.centered-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #a7727d;
+  padding: 10px;
+}
+
+nav {
+  margin: auto;
+}
+
+label {
+  color: #a7727d;
+}
+
+input {
+  background-color: #ede9da;
+  border: none;
+}
+
+button {
+  background-color: #a7727d;
+}
+
+.submit {
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #edf1d6;
+  background-color: #a7727d;
+  border: none;
+  border-radius: 45px;
+}
+
+.switch {
+  padding: 6px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #edf1d6;
+  background-color: #a7727d;
+  border: none;
+  border-radius: 25px;
+}
+
+.container {
+  text-align: center;
+  display: table;
+  width: 90vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 80px 50px;
+  border-radius: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 86px;
+  text-align: left;
+}
+
+a {
+  color: #a7727d;
+}
+
+.li {
+  text-align: center;
 }
